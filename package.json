@@ -1,0 +1,26 @@
+{
+  "name": "mahdihazrati",
+  "version": "2.0.0",
+  "description": "Mahdi Hazrati Interactive CV",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahdi-Hazrati/npx-mahdihazrati.git"
+  },
+  "keywords": [
+    "mahdihazrati",
+    "mahdi-hazrati",
+    "nextproduction",
+    "npui",
+    "cv"
+  ],
+  "author": "Mahdi Hazrati",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Mahdi-Hazrati/npx-mahdihazrati/issues"
+  },
+  "homepage": "https://github.com/Mahdi-Hazrati/npx-mahdihazrati#readme"
+}
