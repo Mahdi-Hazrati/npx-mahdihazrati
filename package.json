@@ -1,8 +1,8 @@
 {
   "name": "mahdihazrati",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Mahdi Hazrati Interactive CV",
-  "main": "Main.js",
+  "main": "Main.mjs",
   "type": "module",
   "bin": {
     "mahdihazrati": "./Main.mjs"
@@ -25,12 +25,15 @@
     "mahdi-hazrati",
     "nextproduction",
     "npui",
-    "cv"
+    "cv",
+    "Interactive CLI Portfolio",
+    "CLI Portfolio",
+    "Node JS"
   ],
   "author": "Mahdi Hazrati",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Mahdi-Hazrati/npx-mahdihazrati/issues"
   },
-  "homepage": "https://github.com/Mahdi-Hazrati/npx-mahdihazrati#readme"
+  "homepage": "https://mahdi-hazrati.github.io/npx-mahdihazrati/"
 }

@@ -1,14 +1,12 @@
 # Mahdi Hazrati - Interactive CLI Portfolio
 
 [![NPM Version](https://img.shields.io/npm/v/mahdihazrati)](https://www.npmjs.com/package/mahdihazrati)
-[![License](https://img.shields.io/github/license/mahdi-hazrati/cli-portfolio)](https://github.com/Mahdi-Hazrati/cli-portfolio/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/mahdi-hazrati/cli-portfolio)](https://github.com/Mahdi-Hazrati/cli-portfolio/issues)
+[![License](https://img.shields.io/github/license/mahdi-hazrati/npx-mahdihazrati)](https://github.com/Mahdi-Hazrati/npx-mahdihazrati/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/mahdi-hazrati/npx-mahdihazrati)](https://github.com/Mahdi-Hazrati/npx-mahdihazrati/issues)
 
 Welcome to the **Mahdi Hazrati Interactive CLI Portfolio**, a fun and engaging way to explore Mahdi's professional profile directly from your terminal! This Node.js-based project showcases Mahdi’s experience, skills, and contact information, all within an interactive command-line interface.
 
 ![Screen Shot](Screenshot.png)
-
-
 
 ## Table of Contents
 
@@ -106,9 +104,6 @@ If you'd like to contribute, please follow these steps:
 
 We welcome all kinds of contributions, whether it’s bug fixes, new features, or improvements!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Mahdi-Hazrati/cli-portfolio/blob/main/LICENSE) file for details.
 
 ## Contact
 
@@ -121,6 +116,6 @@ Feel free to reach out if you have any questions or suggestions:
 - **Telegram**: [@TheMahdiiHazrati](https://t.me/TheMahdiiHazrati)
 - **YouTube**: [Discover With Mahdi](https://youtube.com/@DiscoverWithMahdi)
 
----
+## License
 
-Thank you for checking out this project! 🚀 I hope you enjoy exploring my portfolio through this interactive CLI
+This project is licensed under the GPL-3.0-or-later , - see the [LICENSE](https://github.com/Mahdi-Hazrati/cli-portfolio/blob/main/LICENSE) file for details.
