@@ -6,6 +6,10 @@
 
 Welcome to the **Mahdi Hazrati Interactive CLI Portfolio**, a fun and engaging way to explore Mahdi's professional profile directly from your terminal! This Node.js-based project showcases Mahdi’s experience, skills, and contact information, all within an interactive command-line interface.
 
+![Screen Shot](Screenshot.png)
+
+
+
 ## Table of Contents
 
 - [Features](#features)
