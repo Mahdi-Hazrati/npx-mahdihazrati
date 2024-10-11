@@ -3,8 +3,16 @@
   "version": "2.0.0",
   "description": "Mahdi Hazrati Interactive CV",
   "main": "Main.js",
+  "type": "module",
+  "bin": {
+    "mahdihazrati": "./Main.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.3.0"
   },
   "repository": {
     "type": "git",
