@@ -25,7 +25,7 @@ Mahdi thrives in fast-paced, collaborative environments.
    `,
   cv_pdf: {
     download_url:
-      "https://mahdihazrati.ir/assets/files/Mahdi%20Hazrati%20Portfolio%20-%20v3.0.2%20-%202024%2010%2004-encrypted.pdf",
+      "https://mahdihazrati.ir/assets/files/Mahdi%20Hazrati%20Portfolio%20-%20v3.0.3%20-%202024%2010%2024-encrypted.pdf",
   },
   website: {
     label: "MahdiHazrati.ir",
@@ -53,7 +53,7 @@ Mahdi thrives in fast-paced, collaborative environments.
   },
   youtube: {
     label: "Youtube",
-    url: "https://youtube.com/@DiscoverWithMahdi",
+    url: "https://youtube.com/@MahdiCodingJourney",
   },
 };
 
@@ -79,34 +79,35 @@ ${chalk.green(information.title)}
 
 ${chalk.black(information.description)}
 
-${chalk.bold("Website:")} ${chalk.cyan(information.website.url)}
-${chalk.bold("GitHub:")} ${chalk.green(information.github.url)}
-${chalk.bold("Telegram:")} ${chalk.magenta(information.telegram.url)}
-${chalk.bold("LinkedIn:")} ${chalk.blue(information.linkedin.url)}
-${chalk.bold("NPM:")} ${chalk.yellow(information.npm.url)}
-${chalk.bold("NextProduction:")} ${chalk.green(information.next_production.url)}
-${chalk.bold("YouTube:")} ${chalk.red(information.youtube.url)}
+${chalk.cyan(information.website.url)}
+${chalk.green(information.github.url)}
+${chalk.magenta(information.telegram.url)}
+${chalk.blue(information.linkedin.url)}
+${chalk.yellow(information.npm.url)}
+${chalk.green(information.next_production.url)}
+${chalk.red(information.youtube.url)}
 `;
 
 // Show the final CV with a white box inside a darker one
 const output = boxen(innerBoxContent, innerBoxOptions);
 console.log(boxen(output, fullBoxOptions));
 
-// Interactive menu for further actions
 const menuOptions = [
   {
     type: "list",
     name: "action",
-    message: chalk.yellow("What would you like to do next? 🚀"),
+    message: chalk.yellow("What would you like to do next?"),
     choices: [
-      { name: "👨‍💻 View PDF CV", value: "view_cv" },
-      { name: "📧 Send an Email to Mahdi", value: "send_email" },
-      { name: "🌐 Open Mahdi's Website", value: "open_website" },
-      { name: "💻 Visit Mahdi's GitHub", value: "open_github" },
-      { name: "🔗 Visit Mahdi's LinkedIn", value: "open_linkedin" },
-      { name: "🌍 Visit NextProduction.dev", value: "open_next_production" },
-      { name: "🎥 Visit Mahdi's YouTube Channel", value: "open_youtube" },
+      { name: chalk.blueBright("🔍 View PDF CV"), value: "view_cv" },
+      { name: chalk.greenBright("✉️  Send an Email to Mahdi"), value: "send_email" },
+      { name: chalk.cyanBright("🌐 Open Mahdi's Website"), value: "open_website" },
+      { name: chalk.magentaBright("🐱 Visit Mahdi's GitHub"), value: "open_github" },
+      { name: chalk.blueBright("🔗 Visit Mahdi's LinkedIn"), value: "open_linkedin" },
+      { name: chalk.greenBright("⚙️  Visit NextProduction.dev"), value: "open_next_production" },
+      { name: chalk.redBright("🎥 Visit Mahdi's YouTube Channel"), value: "open_youtube" },
     ],
+    pageSize: 8, // Show all options in one page
+    loop: false, // Disable looping to avoid confusion
   },
 ];
 
@@ -137,15 +138,4 @@ inquirer.prompt(menuOptions).then((answers) => {
     default:
       console.log(chalk.red("Oops! Invalid selection, please try again."));
   }
-});
-
-// Catch Ctrl + C / Ctrl + X interrupts
-process.on("SIGINT", () => {
-  console.log(chalk.green("\n👋 Thank you for visiting! Best of luck with your projects, and keep coding! 🚀✨"));
-  process.exit();
-});
-
-process.on("SIGTERM", () => {
-  console.log(chalk.green("\n👋 Thank you for visiting! Best of luck with your projects, and keep coding! 🚀✨"));
-  process.exit();
 });
